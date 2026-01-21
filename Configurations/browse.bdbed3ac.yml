@@ -11,7 +11,7 @@ name: browse
 description: Description for new-state
 page:
   type: formDesigner
-  id: e91fdda9-3479-4236-ba21-dc168bf69355
+  id: 1116d7f4-5b7d-4677-b8b4-a98c0436f37c
   name: browse
   description: Description for new-state
   template: quick-search
