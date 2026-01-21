@@ -19,5 +19,5 @@ page:
   name: start
   description: Description for new-state
   template: ai
-  datasource: null
+  datasource: users
   action: run
