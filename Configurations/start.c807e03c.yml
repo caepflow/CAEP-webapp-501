@@ -13,3 +13,11 @@ start: true
 transitions:
   - target: 5da7aaa7-b290-4481-9b13-219de29f1be6
     name: browse
+page:
+  type: formDesigner
+  id: 6e58639b-5773-4f26-b111-c0812b64561a
+  name: start
+  description: Description for new-state
+  template: ai
+  datasource: users
+  action: run
