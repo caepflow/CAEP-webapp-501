@@ -1,15 +1,23 @@
 id: 93ae3e3a-4ad6-4122-9314-8f941e9b458b
 type: state
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    3938f4c8-76b6-443f-87e9-58ac51938e30:
-      x: 87.5
-      y: 20
+  - namespace: c4modeler
+    name: position
+    value:
+      3938f4c8-76b6-443f-87e9-58ac51938e30:
+        x: 87.5
+        y: 20
 name: start
 description: Description for new-state
 start: true
 transitions:
-- target: 5da7aaa7-b290-4481-9b13-219de29f1be6
-  name: browse
+  - target: 5da7aaa7-b290-4481-9b13-219de29f1be6
+    name: browse
+page:
+  type: formDesigner
+  id: 9a47ab6c-164e-4ceb-ba75-006368a8a756
+  name: start
+  description: Description for new-state
+  template: ai
+  datasource: users
+  action: run
